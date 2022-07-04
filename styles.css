@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #f0f0f0;
+}
+.header {
+  padding: 20px;
+  background: #be3144;
+  width: 100%;
+}
+.toolbar {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2 rem;
+}
+.nav-item {
+  margin-right: 2rem;
+}
+.main-header {
+  background: #000 linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.main-header > p {
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  color: #be3144;
+}
+
+.main-content {
+  text-align: center;
+  padding: 10rem 2rem;
+  background: #45567d;
+}
+.content-header {
+  max-width: 640px;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem solid f0f0f0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+.works {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+.work {
+  background: #303841;
+}
+.work-image {
+  display: block;
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  object-fit: cover;
+}
+.work-caption {
+  font-size: 2rem;
+  padding: 2rem 0.5rem;
+}
+.btn-more {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+  font-size: 2rem;
+  background: #303841;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  padding: 0 2rem;
+  background: #303841;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+.icon {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+  font-size: 2.4rem;
+}
+.footer-bottom {
+  font-weight: 300;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  border-top: 4px solid #be3144;
+}
